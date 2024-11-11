@@ -7,3 +7,9 @@ def index(request):
 
 def contact(request):
         return render(request, 'contato.html')
+
+def layout_static(request):
+        return render(request, 'layout-static.html')
+
+def layout_sidenav(request):
+        return render(request, 'layout-sidenav-light.html')
